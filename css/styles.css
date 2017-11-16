@@ -1,0 +1,30 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  font-size: 25px;
+  text-align: center;
+}
+table {
+  border: 1px solid #0e96b4;
+  border-collapse: collapse;
+  width: 100%;
+}
+thead{
+  background-color: #0e96b4;
+
+}
+tr:nth-child(even){
+  background-color: #efefee;
+}
+tr{
+  border-bottom: 1px solid #0e96b4;
+}
+td, th {
+  padding: 7px;
+}
+th{
+  color: white;
+  text-align: left;
+  font-weight: normal;
+}
